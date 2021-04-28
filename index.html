@@ -23,53 +23,55 @@ window.alert('No Aceptaste los terminos')}
 	<legend> Crea Un Nuevo Usuario </legend>
 
 	<label for= "nombre"> Fecha de creacion:  </label>
-	<input class="Entradas" type= "date" fecha="fecha" required>
+	<input class="Entradas" type= "date" id="fecha" required>
 	<br>
 
 
 	<label for= "nombre"> Nombre:  </label>
-	<input class="Entradas" type= "text" nombre="nombre" required>
+	<input class="Entradas" type= "text" id="nombre" required>
 	<br>
 
 	
 	<label for= "ApellidoP"> Apellido Paterno:  </label>
-	<input class="Entradas" type= "text" apellidoP="apellidoP" required>
+	<input class="Entradas" type= "text" id="apellidoP" required>
 	<br>
 	
 	<label for= "ApellidoM"> Apellido Materno:  </label>
-	<input class="Entradas" type= "text" apellidoM="apellidoM" required>
+	<input class="Entradas" type= "text" id="apellidoM" required>
 	<br>
 	
 	<label for= "Calle"> Calle:  </label>
-	<input class="Entradas" type= "text" calle="calle" required>
+	<input class="Entradas" type= "text" id="calle" required>
 	<br>
 	
 	<label for= "Numero"> Numero: </label>
-	<input class="Entradas" type="number" numero="numero" required>
+	<input class="Entradas" type="number" id="numero" required>
 	<br>
 	
 	<label for= "CodigoP"> Codigo postal:  </label>
-	<input class="Entradas" type= "text" codigoP="codigoP" required>
+	<input class="Entradas" type= "text" id="codigoP" required>
 	<br>
 	
 	<label for= "Email"> Correo Electronico:  </label>
-	<input class="Entradas" type= "email" email="email" required>
+	<input class="Entradas" type= "email" id="email" required>
 	<br>
 	
 	<label for= "Usuario"> Nombre de Usuario:  </label>
-	<input class="Entradas" type= "text"usuario="usuario" required>
+	<input class="Entradas" type= "text id="usuario" required>
 	<br>
 	
 	<label for= "Contraseña1"> Contraseña:  </label>
-	<input class="Entradas" id="contraseña1" type= "password" contraseña1="contraseña1" required>
+	<input class="Entradas" id="contraseña1" type= "password" id="contraseña1" required>
 	<br>
 	
 	<label for= "Contraseña2"> Ingresa tu Contraseña Nuevamente:  </label>
-	<input class="Entradas" id="contraseña2" type= "password" contraseña2="contraseña2" required>
+	<input class="Entradas" id="contraseña2" type= "password" id="contraseña2" required>
 	<br>
 	<br>
 	
 
-	<center> <input class="boton" type ="submit" onclick="return validar_clave();" value="Agregar"> </center>
+	 </div>
+            <button type="submit" class="btn btn-primary" id="add">Add</button>
+        </form>
 
  </fieldset>
